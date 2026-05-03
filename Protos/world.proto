@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package world;
+
+message WorldStatus {
+  int64 world_id = 1;
+  string name = 2;
+  string time = 3;
+}
+
+message GetMyWorldRequest {
+  int32 world_id = 1;
+}
+
+message GetMyWorldResponse {
+  WorldStatus world_status = 1;
+}
+
+service WorldService {
+  rpc GetMyWorld (GetMyWorldRequest) returns (GetMyWorldResponse);
+}
+

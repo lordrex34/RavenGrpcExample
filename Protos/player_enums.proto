@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package player;
+
+enum PlayerRace {
+  PLAYER_RACE_HUMAN = 0;
+  PLAYER_RACE_ELF = 1;
+  PLAYER_RACE_DWARF = 2;
+}
+
+enum PlayerClass {
+  PLAYER_CLASS_WARRIOR = 0;
+  PLAYER_CLASS_PRIEST = 1;
+  PLAYER_CLASS_MAGE = 2;
+}
+
+
+

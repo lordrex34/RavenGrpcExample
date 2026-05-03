@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+import "player_enums.proto";
+
+package player;
+
+message Player {
+  int64 player_id = 1;
+  string name = 2;
+  string title = 3;
+  PlayerRace player_race = 4;
+  PlayerClass player_class = 5;
+  int32 level = 6;
+  int32 xp = 7;
+  int32 sp = 8;
+}
+
+message GetPlayerRequest {
+  int32 player_id = 1;
+}
+
+message GetPlayerResponse {
+  Player player = 1;
+}
+
+service PlayerService {
+  rpc GetPlayer (GetPlayerRequest) returns (GetPlayerResponse);
+}
+
