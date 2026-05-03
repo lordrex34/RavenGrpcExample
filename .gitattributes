@@ -1,0 +1,42 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+**/Mesh/** filter=lfs diff=lfs merge=lfs -text
+**/Meshes/** filter=lfs diff=lfs merge=lfs -text
+Mesh/** filter=lfs diff=lfs merge=lfs -text
+Meshes/** filter=lfs diff=lfs merge=lfs -text
+**/Texture/** filter=lfs diff=lfs merge=lfs -text
+**/Textures/** filter=lfs diff=lfs merge=lfs -text
+**/TextureLibrary/** filter=lfs diff=lfs merge=lfs -text
+Texture/** filter=lfs diff=lfs merge=lfs -text
+Textures/** filter=lfs diff=lfs merge=lfs -text
+TextureLibrary/** filter=lfs diff=lfs merge=lfs -text
+**/StaticMesh/** filter=lfs diff=lfs merge=lfs -text
+**/StaticMeshes/** filter=lfs diff=lfs merge=lfs -text
+StaticMesh/** filter=lfs diff=lfs merge=lfs -text
+StaticMeshes/** filter=lfs diff=lfs merge=lfs -text
+AlphaBrushes/** filter=lfs diff=lfs merge=lfs -text
+**/AlphaBrushes/** filter=lfs diff=lfs merge=lfs -text
+# **/__ExternalActors__/** filter=lfs diff=lfs merge=lfs -text
+Sound/** filter=lfs diff=lfs merge=lfs -text
+Sounds/** filter=lfs diff=lfs merge=lfs -text
+**/Sound/** filter=lfs diff=lfs merge=lfs -text
+**/Sounds/** filter=lfs diff=lfs merge=lfs -text
+Audio/** filter=lfs diff=lfs merge=lfs -text
+Audios/** filter=lfs diff=lfs merge=lfs -text
+**/Audio/** filter=lfs diff=lfs merge=lfs -text
+**/Audios/** filter=lfs diff=lfs merge=lfs -text
+Environment/** filter=lfs diff=lfs merge=lfs -text
+Environments/** filter=lfs diff=lfs merge=lfs -text
+**/Environment/** filter=lfs diff=lfs merge=lfs -text
+**/Environments/** filter=lfs diff=lfs merge=lfs -text
+Effect/** filter=lfs diff=lfs merge=lfs -text
+Effects/** filter=lfs diff=lfs merge=lfs -text
+**/Effect/** filter=lfs diff=lfs merge=lfs -text
+**/Effects/** filter=lfs diff=lfs merge=lfs -text
+Map/** filter=lfs diff=lfs merge=lfs -text
+Maps/** filter=lfs diff=lfs merge=lfs -text
+**/Map/** filter=lfs diff=lfs merge=lfs -text
+**/Maps/** filter=lfs diff=lfs merge=lfs -text
