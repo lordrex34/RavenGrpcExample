@@ -10,6 +10,7 @@ public class ExampleGrpcClient : ModuleRules
             new string[]
             {
                 "Core",
+                "RavenGRPC"
             }
         );
 
@@ -19,7 +20,8 @@ public class ExampleGrpcClient : ModuleRules
                 "CoreUObject",
                 "Engine",
                 "Slate",
-                "SlateCore"
+                "SlateCore",
+                "RavenGRPC"
             }
         );
     }
