@@ -18,7 +18,8 @@
 	"Plugins": [
 		{
 			"Name": "RavenGRPC",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/684f6533-f315-48cd-a4a4-7420d206e6e8"
 		},
 		{
 			"Name": "ModelingToolsEditorMode",
